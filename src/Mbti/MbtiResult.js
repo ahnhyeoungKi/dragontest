@@ -23,7 +23,7 @@ const shareKakao = () => {
         title: '웹으로 이동',
         link: {
           webUrl : 'https://ahnhyeoungki.github.io/gragontest/',
-          mobileWebUrl : 'https://ahnhyeoungki.github.io/gragontest//',
+          mobileWebUrl : 'https://ahnhyeoungki.github.io/gragontest/',
         },
       },
     ]
