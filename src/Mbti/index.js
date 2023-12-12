@@ -173,7 +173,7 @@ const Mbti =  (()=> {
   function linkCopy(){
     var textarea = document.createElement("textarea");
     document.body.appendChild(textarea);
-    textarea.value = 'https://ahnhyeoungki.github.io/gragontest/';   //넷트리파이에서 주소를 복사해서 가져온다
+    textarea.value = 'https://ahnhyeoungki.github.io/dragontest/';   //넷트리파이에서 주소를 복사해서 가져온다
     textarea.select();
     document.execCommand("copy");
     document.body.removeChild(textarea);
@@ -188,16 +188,16 @@ const shareKakao = () => {
       description: '친구와 대화하면서 나의 용용이를 알아보자!',
       imageUrl: logo,
       link: {
-        webUrl : 'https://ahnhyeoungki.github.io/gragontest/',
-        mobileWebUrl : 'https://ahnhyeoungki.github.io/gragontest/',
+        webUrl : 'https://ahnhyeoungki.github.io/dragontest/',
+        mobileWebUrl : 'https://ahnhyeoungki.github.io/dragontest/',
       },
     },
     buttons: [
       {
         title: '웹으로 이동',
         link: {
-          webUrl : 'https://ahnhyeoungki.github.io/gragontest/',
-          mobileWebUrl : 'https://ahnhyeoungki.github.io/gragontest/',
+          webUrl : 'https://ahnhyeoungki.github.io/dragontest/',
+          mobileWebUrl : 'https://ahnhyeoungki.github.io/dragontest/',
         },
       },
     ]

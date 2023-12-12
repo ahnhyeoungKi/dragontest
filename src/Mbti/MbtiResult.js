@@ -14,16 +14,16 @@ const shareKakao = () => {
       description: '친구와 대화하면서 나의 용용이를 알아보자!',
       imageUrl: logo,
       link: {
-        webUrl : 'https://ahnhyeoungki.github.io/gragontest/',
-        mobileWebUrl : 'https://ahnhyeoungki.github.io/gragontest/',
+        webUrl : 'https://ahnhyeoungki.github.io/dragontest/',
+        mobileWebUrl : 'https://ahnhyeoungki.github.io/dragontest/',
       },
     },
     buttons: [
       {
         title: '웹으로 이동',
         link: {
-          webUrl : 'https://ahnhyeoungki.github.io/gragontest/',
-          mobileWebUrl : 'https://ahnhyeoungki.github.io/gragontest/',
+          webUrl : 'https://ahnhyeoungki.github.io/dragontest/',
+          mobileWebUrl : 'https://ahnhyeoungki.github.io/dragontest/',
         },
       },
     ]
