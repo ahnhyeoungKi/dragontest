@@ -1,4 +1,4 @@
-import React, {Component} from 'react';
+import React, {Component} from 'react'; // eslint-disable-line no-unused-vars
 import { HashRouter, Routes ,Route,} from 'react-router-dom'
 import './App.css';
 import Mbti from './Mbti'
