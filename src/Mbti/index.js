@@ -17,7 +17,7 @@ import ESFP from '../resource/esfp.svg'
 import ISFP from '../resource/isfp.svg'
 import ESTJ from '../resource/estj.svg'
 import ISTJ from '../resource/istj.svg'
-import logo from '../resource/myLogo.png'
+import logo from '../resource/dragon5.png'
 import icKakao from '../resource/icKakao.svg'
 import icLink from '../resource/icLink.svg'
 
@@ -50,7 +50,7 @@ const Mbti =  (()=> {
     {name:'F',count:0},{name:'T',count:0},{name:'P',count:0},{name:'J',count:0}
   ])
   const handleEdd = () => {
-    window.open('https://link.coupang.com/a/YgGg1')
+    window.open('https://link.coupang.com/a/bjcAMz')
     navigate('./mbtiResult',{state:{contents:mbtiContents}})
   }
 
