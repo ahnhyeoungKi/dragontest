@@ -3,7 +3,7 @@ import { useNavigate } from 'react-router';
 import { useLocation } from 'react-router-dom';
 import '../App.css'
 import './mbti.css'
-import logo from '../resource/dragon5.png'
+import logo from '../resource/myLogo.svg'
 
  
 const shareKakao = () => {

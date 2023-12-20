@@ -17,7 +17,7 @@ import ESFP from '../resource/imge/ESFP.svg'
 import ISFP from '../resource/imge/ISFP.svg'
 import ESTJ from '../resource/imge/ESTJ.svg'
 import ISTJ from '../resource/imge/ISTJ.svg'
-import logo from '../resource/dragon5.png'
+import logo from '../resource/myLogo.svg'
 import icKakao from '../resource/icKakao.svg'
 import icLink from '../resource/icLink.svg'
 
