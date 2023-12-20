@@ -1,22 +1,22 @@
 import { useEffect, useState } from 'react'
 import './mbti.css'
 import { useNavigate } from 'react-router-dom';
-import ENTP from '../resource/entp.svg'
-import INTP from '../resource/intp.svg'
-import ESFJ from '../resource/esfj.svg'
-import ESTP from '../resource/estp.svg'
-import ISFJ from '../resource/isfj.svg'
-import ISTP from '../resource/istp.svg'
-import ENFJ from '../resource/enfj.svg'
-import INFJ from '../resource/infj.svg'
-import ENTJ from '../resource/entj.svg'
-import INTJ from '../resource/intj.svg'
-import ENFP from '../resource/enfp.svg'
-import INFP from '../resource/infp.svg'
-import ESFP from '../resource/esfp.svg'
-import ISFP from '../resource/isfp.svg'
-import ESTJ from '../resource/estj.svg'
-import ISTJ from '../resource/istj.svg'
+import ENTP from '../resource/imge/ENTP.svg'
+import INTP from '../resource/imge/INTP.svg'
+import ESFJ from '../resource/imge/ESFJ.svg'
+import ESTP from '../resource/imge/ESTP.svg'
+import ISFJ from '../resource/imge/ISFJ.svg'
+import ISTP from '../resource/imge/ISTP.svg'
+import ENFJ from '../resource/imge/ENFJ.svg'
+import INFJ from '../resource/imge/INFJ.svg'
+import ENTJ from '../resource/imge/ENTJ.svg'
+import INTJ from '../resource/imge/INTJ.svg'
+import ENFP from '../resource/imge/ENFP.svg'
+import INFP from '../resource/imge/INFP.svg'
+import ESFP from '../resource/imge/ESFP.svg'
+import ISFP from '../resource/imge/ISFP.svg'
+import ESTJ from '../resource/imge/ESTJ.svg'
+import ISTJ from '../resource/imge/ISTJ.svg'
 import logo from '../resource/dragon5.png'
 import icKakao from '../resource/icKakao.svg'
 import icLink from '../resource/icLink.svg'
@@ -173,7 +173,7 @@ const Mbti =  (()=> {
   function linkCopy(){
     var textarea = document.createElement("textarea");
     document.body.appendChild(textarea);
-    textarea.value = 'https://ahnhyeoungki.github.io/dragontest/';   //넷트리파이에서 주소를 복사해서 가져온다
+    textarea.value = 'https://ahnhyeoungki.github.io/dragontest/';
     textarea.select();
     document.execCommand("copy");
     document.body.removeChild(textarea);
@@ -223,11 +223,14 @@ const shareKakao = () => {
               
                 <img src={icKakao} onClick={()=>shareKakao()}  style={{width:50,height:'auto',margin:'0px 9px 0px 9px'}} alt=''/>            
                 <img src={icLink} onClick={()=>linkCopy()}  style={{width:50,height:'auto',margin:'0px 9px 0px 9px'}} alt=''/>
-            </div> 
-          
 
+            </div> 
             <div style={{height:50,minHeight:50,maxHeight:50,}}>
               제작 : 용용이마스터
+            </div>
+
+            <div style={{height:30,minHeight:30,maxHeight:30,}} onClick={()=>handleEdd()} >
+              쿠팡의 수수료로 운용이 됩니다
             </div>
           </div>
           :
@@ -254,9 +257,9 @@ const shareKakao = () => {
                           <div>◀</div> <div>{qval}</div>
                         </div>
                         )}
+                        
                       </div>
                     </div> 
-
                     <div className='answerItem'>
                       <div className='aChatbox'>
                         <div>+</div> <div>#</div>
