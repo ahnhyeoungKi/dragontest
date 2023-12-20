@@ -20,6 +20,7 @@ import ISTJ from '../resource/imge/ISTJ.svg'
 import logo from '../resource/myLogo.svg'
 import icKakao from '../resource/icKakao.svg'
 import icLink from '../resource/icLink.svg'
+import Logo2 from '../Mbti/daragonLogo2.gif'
 
 const Mbti =  (()=> {
 
@@ -214,7 +215,7 @@ const shareKakao = () => {
             <div style={{height:130,minHeight:130,maxHeight:130}}/>
 
             <div  className='startItem'>
-              <img className="phoneImage" alt="iPhone_01" src="img/dragonLogo.gif"/>
+              <img className="phoneImage" src={Logo2}  alt='Logo2'/>
               <p className='name1' onClick={()=>setPage(1)}>용용테스트</p>
               <div onClick={()=>setPage(1)} className='startButton'>시작하기</div>
 
