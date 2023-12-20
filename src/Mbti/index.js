@@ -62,7 +62,7 @@ const Mbti =  (()=> {
     {q:['여행에서 선호하는 유형이 있다면?'],
     a:[{type:'E',text:'아쉽지 않게 여행지 구석구석을 돌아다니기! '},{type:'I',text:'조용한 숙소에서 우리끼리 휴식 취하기!'}]},      
    
-    {q:['일에 대한 고민이 생겼다, 나는 누구에게 고민 상탐을 할까?'],
+    {q:['일에 대한 고민이 생겼다, 나는 누구에게 고민 상담을 할까?'],
     a:[{type:'E',text:'내가 생각지도 못한 결과물이 나올 수 있기에 여러명에게 고민 상담을 최대한 한다.'},{type:'I',text:'아주 가까운 친구 1명에게만 고민 상담을 한다.'}]},
       
     {q:['2024년 친구들과 일출을 보러 간 나의 모습은?'],
@@ -74,8 +74,8 @@ const Mbti =  (()=> {
     {q:['친구들과 새해 모임통장을 하기로 하였다! 가장 먼저 하고 싶은 일은?'],
     a:[{type:'S',text:'누구 계좌에 각자 얼마를 넣을지 먼저 얘기한다. '},{type:'N',text:'모임 통장으로 앞으로 어떻게 쓸 것인지 먼저 얘기한다.'}]},
      
-    {q:['나랑 맞는 유형이 이 중에 어떤거 같아?'],
-    a:[{type:'N',text:'내가 하는 아이디어가 세상에 빛이 될 것 같아'},{type:'S',text:'지금 불편한 상황을 해결 한번 해보자'}]},
+    {q:['2024년의 새 프로젝트를 시작한다. 프로젝트 방향을 설정 할 때 나는?'],
+    a:[{type:'N',text:'미래에 유행할 것 같은 아이디어를 생각한다.'},{type:'S',text:'지금 유행하는 것을 프로젝트 방향을 정한다.'}]},
       
     {q:['2024년 애인이 나를 위해 새해 이벤트를 준비했다면 그에 대한 나의 반은은?'],
     a:[{type:'T',text:'고마워 요즘 바쁠 텐데 언제 이런 걸 생각했어? '},{type:'F',text:'사랑해 최고야 너밖에 없어 나 정말 감동했어...'}]},
@@ -214,7 +214,7 @@ const shareKakao = () => {
             <div style={{height:130,minHeight:130,maxHeight:130}}/>
 
             <div  className='startItem'>
-              <img className="phoneImage" alt="iPhone_01" src="img/dragon5.png"/>
+              <img className="phoneImage" alt="iPhone_01" src="img/dragonLogo.gif"/>
               <p className='name1' onClick={()=>setPage(1)}>용용테스트</p>
               <div onClick={()=>setPage(1)} className='startButton'>시작하기</div>
 
