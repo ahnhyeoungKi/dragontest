@@ -231,7 +231,7 @@ const shareKakao = () => {
             </div>
 
             <div style={{height:30,minHeight:30,maxHeight:30,}} onClick={()=>handleEdd()} >
-              쿠팡의 수수료로 운용이 됩니다
+              쿠팡의 수수료로 운영이 됩니다
             </div>
           </div>
           :
