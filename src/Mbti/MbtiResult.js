@@ -11,7 +11,7 @@ const shareKakao = () => {
     objectType: 'feed',
     content: {
       title: '나의 용용 스타일은?',
-      description: '친구와 대화하면서 나의 용용이를 알아보자!',
+      description: '2024년 청룡의 해 나는 무슨 용일까?',
       imageUrl: logo,
       link: {
         webUrl : 'https://ahnhyeoungki.github.io/dragontest/',
