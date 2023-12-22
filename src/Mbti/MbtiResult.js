@@ -90,13 +90,13 @@ const MbtiResult =  (()=> {
                         </div>
                       </div>
                       <div className='qChatbox'>
-                        <div>◀</div> <div>당신의 용용이는 '{mbtiContents.animal}''{mbtiContents.animal2}' 입니다.</div>
+                        <div>◀</div> <div>당신의 용용이는 {mbtiContents.animal}{mbtiContents.animal2} 입니다.</div>
                       </div>
                       
  
 
                       <div className='qChatbox'>
-                        <div>◀</div> <div>'{mbtiContents.animal}''{mbtiContents.animal2}'는요</div>
+                        <div>◀</div> <div>{mbtiContents.animal}{mbtiContents.animal2}는요</div>
                       </div>
 
                       {mbtiContents.contents.map((val,idx)=>
