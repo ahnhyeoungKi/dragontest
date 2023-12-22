@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/dragontest/static/css/main.f65b4f1e.css",
-    "main.js": "/dragontest/static/js/main.efee5980.js",
+    "main.js": "/dragontest/static/js/main.2bf3e385.js",
     "static/js/787.03725634.chunk.js": "/dragontest/static/js/787.03725634.chunk.js",
     "static/media/ESFP.svg": "/dragontest/static/media/ESFP.2ecc80a5b98f0b03c82eeddaf39e4f31.svg",
     "static/media/daragonLogo2.gif": "/dragontest/static/media/daragonLogo2.05a8d31ab2b97d9ed8a5.gif",
@@ -25,11 +25,11 @@
     "static/media/icLink.svg": "/dragontest/static/media/icLink.37a5a4df7181bbebe49ee191dee975ac.svg",
     "index.html": "/dragontest/index.html",
     "main.f65b4f1e.css.map": "/dragontest/static/css/main.f65b4f1e.css.map",
-    "main.efee5980.js.map": "/dragontest/static/js/main.efee5980.js.map",
+    "main.2bf3e385.js.map": "/dragontest/static/js/main.2bf3e385.js.map",
     "787.03725634.chunk.js.map": "/dragontest/static/js/787.03725634.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.f65b4f1e.css",
-    "static/js/main.efee5980.js"
+    "static/js/main.2bf3e385.js"
   ]
 }
