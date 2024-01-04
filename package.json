@@ -1,6 +1,6 @@
 {
-  "homepage": "https://ahnhyeoungki.github.io/dragontest",
-  "name": "gragontest",
+  "homepage": "https://stellular-mousse-4e5f60.netlify.app/",
+  "name": "dragontest",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -40,6 +40,7 @@
     ]
   },
   "devDependencies": {
+    "copy-webpack-plugin": "^11.0.0",
     "gh-pages": "^6.1.0"
   }
 }
