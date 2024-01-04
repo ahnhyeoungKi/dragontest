@@ -14,16 +14,16 @@ const shareKakao = () => {
       description: '2024년 청룡의 해 나는 무슨 용일까?',
       imageUrl: logo,
       link: {
-        webUrl : 'https://ahnhyeoungki.github.io/dragontest/',
-        mobileWebUrl : 'https://ahnhyeoungki.github.io/dragontest/',
+        webUrl : 'https://dragontest2024.netlify.app/',
+        mobileWebUrl : 'https://dragontest2024.netlify.app/',
       },
     },
     buttons: [
       {
         title: '웹으로 이동',
         link: {
-          webUrl : 'https://ahnhyeoungki.github.io/dragontest/',
-          mobileWebUrl : 'https://ahnhyeoungki.github.io/dragontest/',
+          webUrl : 'https://dragontest2024.netlify.app/',
+          mobileWebUrl : 'https://dragontest2024.netlify.app/',
         },
       },
     ]

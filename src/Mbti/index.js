@@ -21,7 +21,6 @@ import logo from '../resource/myLogo.svg'
 import icKakao from '../resource/icKakao.svg'
 import icLink from '../resource/icLink.svg'
 import Logo2 from '../Mbti/daragonLogo2.gif'
-import Logo from '../Mbti/logo.svg'
 const Mbti =  (()=> {
 
   const setOneVh = () => {
@@ -54,6 +53,10 @@ const Mbti =  (()=> {
     window.open('https://link.coupang.com/a/bjcAMz')
     navigate('./mbtiResult',{state:{contents:mbtiContents}})
   }
+  const handleEdd2 = () => {
+    window.open('https://link.coupang.com/a/bjcAMz')
+  }
+
 
 
   const questionList = [
@@ -174,7 +177,7 @@ const Mbti =  (()=> {
   function linkCopy(){
     var textarea = document.createElement("textarea");
     document.body.appendChild(textarea);
-    textarea.value = 'https://ahnhyeoungki.github.io/dragontest/';
+    textarea.value = 'https://dragontest2024.netlify.app/';
     textarea.select();
     document.execCommand("copy");
     document.body.removeChild(textarea);
@@ -189,16 +192,16 @@ const shareKakao = () => {
       description: '2024년 청룡의 해 나는 무슨 용일까?',
       imageUrl: logo,
       link: {
-        webUrl : 'https://ahnhyeoungki.github.io/dragontest/',
-        mobileWebUrl : 'https://ahnhyeoungki.github.io/dragontest/',
+        webUrl : 'https://dragontest2024.netlify.app/',
+        mobileWebUrl : 'https://dragontest2024.netlify.app/',
       },
     },
     buttons: [
       {
         title: '웹으로 이동',
         link: {
-          webUrl : 'https://ahnhyeoungki.github.io/dragontest/',
-          mobileWebUrl : 'https://ahnhyeoungki.github.io/dragontest/',
+          webUrl : 'https://dragontest2024.netlify.app/',
+          mobileWebUrl : 'https://dragontest2024.netlify.app/',
         },
       },
     ]
@@ -215,7 +218,6 @@ const shareKakao = () => {
             <div style={{height:130,minHeight:130,maxHeight:130}}/>
 
             <div  className='startItem'>
-              <img className="phoneImage" src={Logo}  alt='Logo'/>
               <img className="phoneImage" src={Logo2}  alt='Logo2'/>
               <p className='name1' onClick={()=>setPage(1)}>용용테스트</p>
               <div onClick={()=>setPage(1)} className='startButton'>시작하기</div>
@@ -231,7 +233,7 @@ const shareKakao = () => {
               제작 : 용용이마스터
             </div>
 
-            <div style={{height:30,minHeight:30,maxHeight:30,}} onClick={()=>handleEdd()} >
+            <div style={{height:30,minHeight:30,maxHeight:30,}} onClick={()=>handleEdd2()} >
               쿠팡의 수수료로 운영이 됩니다
             </div>
           </div>
