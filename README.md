@@ -1,5 +1,5 @@
 # 테스트 한번 해보기
-https://ahnhyeoungki.github.io/dragontest/
+https://dragontest2024.netlify.app/
 
 
 # Getting Started with Create React App
